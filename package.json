@@ -1,0 +1,38 @@
+{
+  "name": "simple-node-mongo-architecture",
+  "version": "1.0.0",
+  "description": "You can use this repo as preconfigured nodeJS+mongoose project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertcb/simple-node-mongo-architecture.git"
+  },
+  "author": "mertcb",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mertcb/simple-node-mongo-architecture/issues"
+  },
+  "homepage": "https://github.com/mertcb/simple-node-mongo-architecture#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "https": "^1.0.0",
+    "mongoose": "^5.8.10",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "nodemon": "^2.0.2"
+  }
+}
