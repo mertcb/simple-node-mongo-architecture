@@ -8,6 +8,7 @@ This is a clean NodeJS project for beginners. It will make easier to follow your
 * [Installation](#installation)
 * [Usage](#usage)
   * [After Installation](#after-installation)
+  * [After Creating a New Route](#after-creating-a-new-route)
   * [Example File/Folder Structure](#example-filefolder-structure)
 * [License](#license)
 * [Author](#author)
@@ -54,6 +55,24 @@ const config = {
   NEW_VALUE: process.env.NEW_VALUE
 };
 ```
+
+### After Creating a New Route
+
+
+When you create a new route, don't forget to import your new route to [index.js](https://github.com/mertcb/simple-node-mongo-architecture/blob/master/src/index.js) file. You can do it like below.
+
+
+```
+import exampleRoute from "./routes/exampleRoute";
+.
+.
+.
+.
+.
+.
+app.use(exampleRoute);
+```
+
 ### Example File/Folder Structure
 
 ```
