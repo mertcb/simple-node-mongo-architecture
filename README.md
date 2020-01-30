@@ -8,7 +8,7 @@ This is a clean NodeJS project for beginners. It will make easier to follow your
 * [Installation](#installation)
 * [Usage](#usage)
   * [After Installation](#after-installation)
-  * [Example File/Folder Structure](#example-file-folder-structure)
+  * [Example File/Folder Structure](#example-filefolder-structure)
 * [License](#license)
 * [Author](#author)
 
