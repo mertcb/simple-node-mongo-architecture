@@ -14,7 +14,7 @@ This is a clean NodeJS project for beginners. It will make easier to follow your
 
 ## Installation
 
-You can clone this repo and run the [`npm init` command] for initializing this repo as a new project.
+You can clone this repo and run the [`npm init` command](https://docs.npmjs.com/cli/init) for initializing this repo as a new project.
 
 
 ```sh
