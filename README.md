@@ -104,7 +104,7 @@ exampleProject
 ## Running the project
 
 ```sh
-$ npm run-script servre
+$ npm run-script server
 ```
 
 ## License
