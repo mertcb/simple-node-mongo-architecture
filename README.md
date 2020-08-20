@@ -101,6 +101,11 @@ exampleProject
     │   Node Modules will stored here.
 ```
 
+## Running the project
+
+```sh
+$ npm run-script servre
+```
 
 ## License
 
